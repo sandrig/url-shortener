@@ -1,0 +1,32 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Simple URL shortener on MERN stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrig/url-shortener.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Andrey Savelyev <sandrig.dev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrig/url-shortener/issues"
+  },
+  "homepage": "https://github.com/sandrig/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
